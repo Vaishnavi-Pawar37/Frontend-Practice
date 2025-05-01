@@ -1,0 +1,99 @@
+a{
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    font-style:normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left:10%;
+    
+}
+nav .part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    font-size: 20px;
+    margin-right:10%;
+    padding: 10px;
+   
+}
+div{
+    font-family:'Arial';
+    text-align: center;
+}
+h2{
+    font-family:'Arial';
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h5{
+    margin: 0;
+    padding: 0;
+}
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    width: 100%;
+}
+section .part2{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-top:5px;
+    margin-right:150px;
+    margin-left: 150px;
+    padding: 5px;
+}
+section .part2 .part3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    font-size: 20px;
+    margin-right:10%;
+    padding: 10px;
+}
+section .part2 .part3 .part4{
+    margin:20px;
+    padding:20px;
+    font-family:'Arial';
+    font-size: 100px;
+    text-align: left;
+    padding-left:30px;
+}
+p{
+    color:white; 
+    padding:10px; 
+    font-family:'Arial';
+    font-size:20px; 
+    text-align: left;
+}
+.name{
+    background-color: white; 
+    color: black;
+    border-radius:20px; 
+    padding:10px; 
+    font-family:'Arial'; 
+    font-size:10px; 
+    text-align: left;
+}
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid black;
+}  
+.flex-child:first-child {
+    margin-right: 20px;
+} 
